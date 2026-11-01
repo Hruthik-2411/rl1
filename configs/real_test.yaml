@@ -1,0 +1,4 @@
+# Test on the held-out REAL recordings (incidents never seen in training).
+sources_file: data/real/calibrated.json
+replay_file: data/real/recordings.jsonl
+replay_split: test

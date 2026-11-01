@@ -1,0 +1,105 @@
+{"kind": "obs", "split": "train", "fault": 0, "severity": 1, "trial": 0, "answers": [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]], "time": "19:14:08"}
+{"kind": "obs", "split": "train", "fault": 1, "severity": 0, "trial": 0, "answers": [[1, 1, 1], [0, 0, 0], [0, 0, 0], [1, 1, 1]], "time": "19:14:37"}
+{"kind": "obs", "split": "train", "fault": 1, "severity": 1, "trial": 0, "answers": [[1, 1, 1], [0, 0, 0], [0, 0, 0], [1, 1, 1]], "time": "19:15:05"}
+{"kind": "obs", "split": "train", "fault": 2, "severity": 0, "trial": 0, "answers": [[0, 2, 2], [0, 0, 0], [0, 0, 0], [2, 2, 2]], "time": "19:15:38"}
+{"kind": "obs", "split": "train", "fault": 2, "severity": 1, "trial": 0, "answers": [[2, 2, 2], [0, 0, 0], [0, 2, 2], [2, 2, 2]], "time": "19:16:12"}
+{"kind": "obs", "split": "train", "fault": 3, "severity": 0, "trial": 0, "answers": [[3, 3, 3], [0, 0, 0], [0, 0, 0], [3, 3, 3]], "time": "19:16:45"}
+{"kind": "obs", "split": "train", "fault": 3, "severity": 1, "trial": 0, "answers": [[3, 3, 3], [0, 0, 0], [0, 0, 0], [3, 3, 3]], "time": "19:17:31"}
+{"kind": "obs", "split": "train", "fault": 4, "severity": 0, "trial": 0, "answers": [[4, 4, 4], [4, 4, 4], [4, 4, 4], [4, 4, 4]], "time": "19:18:05"}
+{"kind": "obs", "split": "train", "fault": 4, "severity": 1, "trial": 0, "answers": [[4, 4, 4], [4, 4, 4], [4, 4, 4], [4, 4, 4]], "time": "19:18:38"}
+{"kind": "obs", "split": "train", "fault": 5, "severity": 0, "trial": 0, "answers": [[3, 3, 3], [4, 4, 4], [5, 5, 5], [5, 5, 5]], "time": "19:19:40"}
+{"kind": "obs", "split": "train", "fault": 5, "severity": 1, "trial": 0, "answers": [[3, 3, 3], [4, 4, 4], [5, 5, 5], [5, 5, 5]], "time": "19:20:43"}
+{"kind": "obs", "split": "train", "fault": 0, "severity": 1, "trial": 1, "answers": [[0, 0, 0], [0, 0, 0], [5, 5, 5], [0, 0, 0]], "time": "19:21:16"}
+{"kind": "obs", "split": "train", "fault": 1, "severity": 0, "trial": 1, "answers": [[1, 1, 1], [0, 0, 0], [0, 0, 0], [1, 1, 1]], "time": "19:21:44"}
+{"kind": "obs", "split": "train", "fault": 1, "severity": 1, "trial": 1, "answers": [[1, 1, 1], [0, 0, 0], [0, 0, 0], [1, 1, 1]], "time": "19:22:13"}
+{"kind": "obs", "split": "train", "fault": 2, "severity": 0, "trial": 1, "answers": [[0, 2, 2], [0, 0, 0], [0, 0, 0], [2, 2, 2]], "time": "19:22:46"}
+{"kind": "obs", "split": "train", "fault": 2, "severity": 1, "trial": 1, "answers": [[2, 2, 2], [0, 0, 0], [2, 2, 2], [2, 2, 2]], "time": "19:23:19"}
+{"kind": "obs", "split": "train", "fault": 3, "severity": 0, "trial": 1, "answers": [[3, 3, 3], [0, 0, 0], [0, 0, 0], [3, 3, 3]], "time": "19:23:54"}
+{"kind": "obs", "split": "train", "fault": 3, "severity": 1, "trial": 1, "answers": [[3, 3, 3], [0, 0, 0], [0, 0, 0], [3, 3, 3]], "time": "19:24:36"}
+{"kind": "obs", "split": "train", "fault": 4, "severity": 0, "trial": 1, "answers": [[4, 4, 4], [4, 4, 4], [4, 4, 4], [4, 4, 4]], "time": "19:25:09"}
+{"kind": "obs", "split": "train", "fault": 4, "severity": 1, "trial": 1, "answers": [[4, 4, 4], [4, 4, 4], [4, 4, 4], [4, 4, 4]], "time": "19:25:42"}
+{"kind": "obs", "split": "train", "fault": 5, "severity": 0, "trial": 1, "answers": [[3, 3, 3], [4, 4, 4], [5, 5, 5], [5, 5, 5]], "time": "19:26:44"}
+{"kind": "obs", "split": "train", "fault": 5, "severity": 1, "trial": 1, "answers": [[3, 3, 3], [4, 4, 4], [5, 5, 5], [5, 5, 5]], "time": "19:27:47"}
+{"kind": "obs", "split": "train", "fault": 0, "severity": 1, "trial": 2, "answers": [[0, 0, 0], [0, 0, 0], [5, 5, 5], [0, 0, 0]], "time": "19:28:21"}
+{"kind": "obs", "split": "train", "fault": 1, "severity": 0, "trial": 2, "answers": [[1, 1, 1], [0, 0, 0], [0, 0, 0], [1, 1, 1]], "time": "19:28:50"}
+{"kind": "obs", "split": "train", "fault": 1, "severity": 1, "trial": 2, "answers": [[1, 1, 1], [0, 0, 0], [0, 0, 0], [1, 1, 1]], "time": "19:29:19"}
+{"kind": "obs", "split": "train", "fault": 2, "severity": 0, "trial": 2, "answers": [[0, 0, 2], [0, 0, 0], [0, 0, 0], [2, 2, 2]], "time": "19:29:53"}
+{"kind": "obs", "split": "train", "fault": 2, "severity": 1, "trial": 2, "answers": [[2, 2, 2], [0, 0, 0], [0, 2, 2], [2, 2, 2]], "time": "19:30:26"}
+{"kind": "obs", "split": "train", "fault": 3, "severity": 0, "trial": 2, "answers": [[3, 3, 3], [0, 0, 0], [0, 0, 0], [3, 3, 3]], "time": "19:31:00"}
+{"kind": "obs", "split": "train", "fault": 3, "severity": 1, "trial": 2, "answers": [[3, 3, 3], [0, 0, 0], [0, 0, 0], [3, 3, 3]], "time": "19:31:44"}
+{"kind": "obs", "split": "train", "fault": 4, "severity": 0, "trial": 2, "answers": [[4, 4, 4], [4, 4, 4], [4, 4, 4], [4, 4, 4]], "time": "19:32:17"}
+{"kind": "obs", "split": "train", "fault": 4, "severity": 1, "trial": 2, "answers": [[4, 4, 4], [4, 4, 4], [4, 4, 4], [4, 4, 4]], "time": "19:32:50"}
+{"kind": "obs", "split": "train", "fault": 5, "severity": 0, "trial": 2, "answers": [[3, 3, 3], [4, 4, 4], [5, 5, 5], [5, 5, 5]], "time": "19:33:54"}
+{"kind": "obs", "split": "train", "fault": 5, "severity": 1, "trial": 2, "answers": [[3, 3, 3], [4, 4, 4], [5, 5, 5], [5, 5, 5]], "time": "19:34:56"}
+{"kind": "obs", "split": "train", "fault": 0, "severity": 1, "trial": 3, "answers": [[0, 0, 0], [0, 0, 0], [5, 5, 5], [0, 0, 0]], "time": "19:35:30"}
+{"kind": "obs", "split": "train", "fault": 1, "severity": 0, "trial": 3, "answers": [[1, 1, 1], [0, 0, 0], [0, 0, 0], [1, 1, 1]], "time": "19:35:58"}
+{"kind": "obs", "split": "train", "fault": 1, "severity": 1, "trial": 3, "answers": [[1, 1, 1], [0, 0, 0], [0, 0, 0], [1, 1, 1]], "time": "19:36:26"}
+{"kind": "obs", "split": "train", "fault": 2, "severity": 0, "trial": 3, "answers": [[0, 2, 2], [0, 0, 0], [0, 0, 0], [2, 2, 2]], "time": "19:36:59"}
+{"kind": "obs", "split": "train", "fault": 2, "severity": 1, "trial": 3, "answers": [[2, 2, 2], [0, 0, 0], [2, 2, 2], [2, 2, 2]], "time": "19:37:31"}
+{"kind": "obs", "split": "train", "fault": 3, "severity": 0, "trial": 3, "answers": [[3, 3, 3], [0, 0, 0], [0, 0, 0], [3, 3, 3]], "time": "19:38:04"}
+{"kind": "obs", "split": "train", "fault": 3, "severity": 1, "trial": 3, "answers": [[3, 3, 3], [0, 0, 0], [0, 0, 0], [3, 3, 3]], "time": "19:38:46"}
+{"kind": "obs", "split": "train", "fault": 4, "severity": 0, "trial": 3, "answers": [[4, 4, 4], [4, 4, 4], [4, 4, 4], [4, 4, 4]], "time": "19:39:18"}
+{"kind": "obs", "split": "train", "fault": 4, "severity": 1, "trial": 3, "answers": [[4, 4, 4], [4, 4, 4], [4, 4, 4], [4, 4, 4]], "time": "19:39:50"}
+{"kind": "obs", "split": "train", "fault": 5, "severity": 0, "trial": 3, "answers": [[3, 3, 3], [4, 4, 4], [5, 5, 5], [5, 5, 5]], "time": "19:40:50"}
+{"kind": "obs", "split": "train", "fault": 5, "severity": 1, "trial": 3, "answers": [[3, 3, 3], [4, 4, 4], [5, 5, 5], [5, 5, 5]], "time": "19:41:52"}
+{"kind": "obs", "split": "test", "fault": 0, "severity": 1, "trial": 4, "answers": [[0, 0, 0], [0, 0, 0], [5, 5, 5], [0, 0, 0]], "time": "19:42:24"}
+{"kind": "obs", "split": "test", "fault": 1, "severity": 0, "trial": 4, "answers": [[1, 1, 1], [0, 0, 0], [0, 0, 0], [1, 1, 1]], "time": "19:42:52"}
+{"kind": "obs", "split": "test", "fault": 1, "severity": 1, "trial": 4, "answers": [[1, 1, 1], [0, 0, 0], [0, 0, 0], [1, 1, 1]], "time": "19:43:20"}
+{"kind": "obs", "split": "test", "fault": 2, "severity": 0, "trial": 4, "answers": [[0, 0, 2], [0, 0, 0], [0, 0, 0], [2, 2, 2]], "time": "19:43:53"}
+{"kind": "obs", "split": "test", "fault": 2, "severity": 1, "trial": 4, "answers": [[2, 2, 2], [0, 0, 0], [2, 2, 2], [2, 2, 2]], "time": "19:44:26"}
+{"kind": "obs", "split": "test", "fault": 3, "severity": 0, "trial": 4, "answers": [[3, 3, 3], [0, 0, 0], [0, 0, 0], [3, 3, 3]], "time": "19:44:58"}
+{"kind": "obs", "split": "test", "fault": 3, "severity": 1, "trial": 4, "answers": [[3, 3, 3], [0, 0, 0], [0, 0, 0], [3, 3, 3]], "time": "19:45:41"}
+{"kind": "obs", "split": "test", "fault": 4, "severity": 0, "trial": 4, "answers": [[4, 4, 4], [4, 4, 4], [4, 4, 4], [4, 4, 4]], "time": "19:46:13"}
+{"kind": "obs", "split": "test", "fault": 4, "severity": 1, "trial": 4, "answers": [[4, 4, 4], [4, 4, 4], [4, 4, 4], [4, 4, 4]], "time": "19:46:44"}
+{"kind": "obs", "split": "test", "fault": 5, "severity": 0, "trial": 4, "answers": [[3, 3, 3], [4, 4, 4], [5, 5, 5], [5, 5, 5]], "time": "19:47:45"}
+{"kind": "obs", "split": "test", "fault": 5, "severity": 1, "trial": 4, "answers": [[3, 3, 3], [4, 4, 4], [5, 5, 5], [5, 5, 5]], "time": "19:48:45"}
+{"kind": "repair", "split": "train", "fault": 1, "severity": 0, "repair": 0, "fixed": false, "trial": 0}
+{"kind": "repair", "split": "train", "fault": 1, "severity": 0, "repair": 1, "fixed": true, "trial": 0}
+{"kind": "repair", "split": "train", "fault": 1, "severity": 0, "repair": 2, "fixed": false, "trial": 0}
+{"kind": "repair", "split": "train", "fault": 1, "severity": 0, "repair": 3, "fixed": false, "trial": 0}
+{"kind": "repair", "split": "train", "fault": 1, "severity": 0, "repair": 4, "fixed": false, "trial": 0}
+{"kind": "repair", "split": "train", "fault": 1, "severity": 1, "repair": 0, "fixed": false, "trial": 0}
+{"kind": "repair", "split": "train", "fault": 1, "severity": 1, "repair": 1, "fixed": true, "trial": 0}
+{"kind": "repair", "split": "train", "fault": 1, "severity": 1, "repair": 2, "fixed": false, "trial": 0}
+{"kind": "repair", "split": "train", "fault": 1, "severity": 1, "repair": 3, "fixed": false, "trial": 0}
+{"kind": "repair", "split": "train", "fault": 1, "severity": 1, "repair": 4, "fixed": false, "trial": 0}
+{"kind": "repair", "split": "train", "fault": 2, "severity": 0, "repair": 0, "fixed": true, "trial": 0}
+{"kind": "repair", "split": "train", "fault": 2, "severity": 0, "repair": 1, "fixed": false, "trial": 0}
+{"kind": "repair", "split": "train", "fault": 2, "severity": 0, "repair": 2, "fixed": false, "trial": 0}
+{"kind": "repair", "split": "train", "fault": 2, "severity": 0, "repair": 3, "fixed": true, "trial": 0}
+{"kind": "repair", "split": "train", "fault": 2, "severity": 0, "repair": 4, "fixed": false, "trial": 0}
+{"kind": "repair", "split": "train", "fault": 2, "severity": 1, "repair": 0, "fixed": true, "trial": 0}
+{"kind": "repair", "split": "train", "fault": 2, "severity": 1, "repair": 1, "fixed": false, "trial": 0}
+{"kind": "repair", "split": "train", "fault": 2, "severity": 1, "repair": 2, "fixed": false, "trial": 0}
+{"kind": "repair", "split": "train", "fault": 2, "severity": 1, "repair": 3, "fixed": true, "trial": 0}
+{"kind": "repair", "split": "train", "fault": 2, "severity": 1, "repair": 4, "fixed": false, "trial": 0}
+{"kind": "repair", "split": "train", "fault": 3, "severity": 0, "repair": 0, "fixed": false, "trial": 0}
+{"kind": "repair", "split": "train", "fault": 3, "severity": 0, "repair": 1, "fixed": false, "trial": 0}
+{"kind": "repair", "split": "train", "fault": 3, "severity": 0, "repair": 2, "fixed": true, "trial": 0}
+{"kind": "repair", "split": "train", "fault": 3, "severity": 0, "repair": 3, "fixed": false, "trial": 0}
+{"kind": "repair", "split": "train", "fault": 3, "severity": 0, "repair": 4, "fixed": false, "trial": 0}
+{"kind": "repair", "split": "train", "fault": 3, "severity": 1, "repair": 0, "fixed": false, "trial": 0}
+{"kind": "repair", "split": "train", "fault": 3, "severity": 1, "repair": 1, "fixed": false, "trial": 0}
+{"kind": "repair", "split": "train", "fault": 3, "severity": 1, "repair": 2, "fixed": true, "trial": 0}
+{"kind": "repair", "split": "train", "fault": 3, "severity": 1, "repair": 3, "fixed": false, "trial": 0}
+{"kind": "repair", "split": "train", "fault": 3, "severity": 1, "repair": 4, "fixed": false, "trial": 0}
+{"kind": "repair", "split": "train", "fault": 4, "severity": 0, "repair": 0, "fixed": true, "trial": 0}
+{"kind": "repair", "split": "train", "fault": 4, "severity": 0, "repair": 1, "fixed": false, "trial": 0}
+{"kind": "repair", "split": "train", "fault": 4, "severity": 0, "repair": 2, "fixed": false, "trial": 0}
+{"kind": "repair", "split": "train", "fault": 4, "severity": 0, "repair": 3, "fixed": false, "trial": 0}
+{"kind": "repair", "split": "train", "fault": 4, "severity": 0, "repair": 4, "fixed": false, "trial": 0}
+{"kind": "repair", "split": "train", "fault": 4, "severity": 1, "repair": 0, "fixed": true, "trial": 0}
+{"kind": "repair", "split": "train", "fault": 4, "severity": 1, "repair": 1, "fixed": false, "trial": 0}
+{"kind": "repair", "split": "train", "fault": 4, "severity": 1, "repair": 2, "fixed": false, "trial": 0}
+{"kind": "repair", "split": "train", "fault": 4, "severity": 1, "repair": 3, "fixed": false, "trial": 0}
+{"kind": "repair", "split": "train", "fault": 4, "severity": 1, "repair": 4, "fixed": false, "trial": 0}
+{"kind": "repair", "split": "train", "fault": 5, "severity": 0, "repair": 0, "fixed": false, "trial": 0}
+{"kind": "repair", "split": "train", "fault": 5, "severity": 0, "repair": 1, "fixed": false, "trial": 0}
+{"kind": "repair", "split": "train", "fault": 5, "severity": 0, "repair": 2, "fixed": false, "trial": 0}
+{"kind": "repair", "split": "train", "fault": 5, "severity": 0, "repair": 3, "fixed": false, "trial": 0}
+{"kind": "repair", "split": "train", "fault": 5, "severity": 0, "repair": 4, "fixed": true, "trial": 0}
+{"kind": "repair", "split": "train", "fault": 5, "severity": 1, "repair": 0, "fixed": false, "trial": 0}
+{"kind": "repair", "split": "train", "fault": 5, "severity": 1, "repair": 1, "fixed": false, "trial": 0}
+{"kind": "repair", "split": "train", "fault": 5, "severity": 1, "repair": 2, "fixed": false, "trial": 0}
+{"kind": "repair", "split": "train", "fault": 5, "severity": 1, "repair": 3, "fixed": false, "trial": 0}
+{"kind": "repair", "split": "train", "fault": 5, "severity": 1, "repair": 4, "fixed": true, "trial": 0}

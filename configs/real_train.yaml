@@ -1,0 +1,10 @@
+# Train on REAL data recorded from the Docker testbed.
+# Create the data first:  python -m faultdiag.testbed.record
+#
+# replay_file: every query answer and repair outcome the agent sees during
+#              training is a real one, replayed from the recordings
+# sources_file: the agent's belief and the planners use source accuracies
+#              measured on the real system (from the train split only)
+sources_file: data/real/calibrated.json
+replay_file: data/real/recordings.jsonl
+replay_split: train

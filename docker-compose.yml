@@ -1,0 +1,80 @@
+# Microservice testbed for experiment E8. Training does NOT use Docker;
+# it runs in plain Python on your laptop.
+#
+#   docker compose up -d --build     # start the testbed
+#   docker compose ps                # check all seven containers are up
+#   docker compose up -d --force-recreate   # after changing this file or restarting the gateway
+#   docker compose down              # stop it
+#
+# The testbed scripts (python -m faultdiag.testbed.*) run on your laptop
+# and talk to these containers through localhost:8080 / localhost:5001
+# and the Docker API.
+
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: fd-db
+    environment:
+      POSTGRES_PASSWORD: fd
+      POSTGRES_DB: shop
+
+  cache:
+    image: redis:7-alpine
+    container_name: fd-cache
+
+  api:
+    build: ./testbed/api
+    image: faultdiag-api
+    container_name: fd-api
+    environment:
+      DB_HOST: db
+      REDIS_HOST: cache
+    cap_add: ["NET_ADMIN"]     # needed for tc/netem network faults
+    init: true                 # reap killed stress-ng workers (no zombie processes)
+    mem_limit: 1500m
+    cpus: 1.0
+    cpuset: "0"                # shares CPU 0 with the batch job below
+    ports:
+      - "5001:5000"
+    depends_on: [db, cache]
+
+  # A heavy batch job on the same machine (same CPU). Idle until the CPU
+  # fault starts stress-ng in it. Restarting the API does not stop it;
+  # giving the API more CPUs (scale_out) does get it out of the way.
+  batch:
+    build: ./testbed/api
+    image: faultdiag-api
+    container_name: fd-batch
+    command: ["sleep", "infinity"]
+    init: true
+    cpuset: "0"
+
+  # Shares the gateway's network so the network fault can slow the link
+  # between users and the service. Restarting the API does not touch it;
+  # reroute_traffic removes it.
+  netctl:
+    build: ./testbed/api
+    image: faultdiag-api
+    container_name: fd-netctl
+    command: ["sleep", "infinity"]
+    init: true
+    network_mode: "service:gateway"
+    cap_add: ["NET_ADMIN"]
+    depends_on: [gateway]
+
+  gateway:
+    image: nginx:1.27-alpine
+    container_name: fd-gateway
+    volumes:
+      - ./testbed/nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
+    ports:
+      - "8080:80"
+    depends_on: [api]
+
+  loadgen:
+    image: locustio/locust:2.29.1
+    container_name: fd-loadgen
+    volumes:
+      - ./testbed/loadgen:/mnt/locust
+    command: -f /mnt/locust/locustfile.py --headless -u 8 -r 2 -H http://gateway
+    depends_on: [gateway]
